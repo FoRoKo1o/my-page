@@ -1,0 +1,18 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Sage / Node
+node_modules/
+public/build/
+.env
+
+# Composer
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
