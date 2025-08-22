@@ -153,3 +153,11 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+
+add_action('after_setup_theme', function () {
+    register_nav_menus([
+        'footer_menu' => __('Footer Menu', 'sage'),
+    ]);
+});
+

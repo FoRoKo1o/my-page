@@ -1,3 +1,20 @@
 @import "tailwindcss" theme(static);
 @source "../views/";
 @source "../../app/";
+
+
+.nav-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    @apply bg-red-500;
+}
+
+.nav-primary ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
