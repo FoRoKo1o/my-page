@@ -1,0 +1,2 @@
+<?= \Roots\view('partials.comments', $data ?? get_defined_vars())->render(); ?>
+<?php /**PATH /home/toor/projekty/szablon/my-page/web/app/themes/my-theme/resources/views/partials/comments.blade.php ENDPATH**/ ?>
